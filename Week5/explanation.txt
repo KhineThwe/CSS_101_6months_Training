@@ -1,0 +1,34 @@
+HTML ---> Markup Language
+CSS ---> Style Language
+CSS ---> Cascading StyleSheet
+
+W3C 
+Web Document ---> HTML,CSS,Javascript
+CSS --> not version ---> CSS Level 1 ---> After HTML5 --- CSS Level 3
+
+
+CSS Syntax:
+
+h2 -- > red ,bold
+
+HTML & CSS
+1.External CSS
+css in one file --> style.css 
+HTML Document --> connect 
+
+2.Internal CSS
+<head>
+      <style>
+      </style>
+</head>
+
+3.Inline CSS
+html element --> css style
+
+CSS Selectors
+----------------
+1.Element Selectors
+2.ID Selectors
+3.Class Selectors
+
+
