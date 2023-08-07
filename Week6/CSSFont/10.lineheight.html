@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Line Height Property</title>
+    <style>
+      body {
+        font-size: 16px;
+      }
+      .normal-value {
+        line-height: normal;
+      }
+      .numeric-value {
+        line-height: 1.2; /* sets value 1.2 times the current font-size: 16px * 1.2 = 19.2px */
+      }
+      .length-value {
+        line-height: 24px;
+      }
+      .percent_value {
+        line-height: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <p class="normal-value">This is normal value of line height</p>
+    <p class="numeric-value">This is numeric value of line height</p>
+    <p class="length-value">This is length-value of line height</p>
+    <p class="percent_value">This is percent value of line height</p>
+    <p>CSS Line-Height Property is used to set the height of the line box.</p>
+    <p>
+      The default line height(also know as line spacing) for most web browsers
+      is usually around 1.2 to 1.4 times the font-size, depending on the browser
+      and the specific font being used.This means that there is a slight space
+      between each line of text to make it more readable and visually appealing.
+    </p>
+    <ul>
+      <li>
+        number: specifics the number that is multiplied with current font size
+        to set the line height.
+      </li>
+      <li>length: sets the line height in px,pt,cm,etc.....</li>
+      <li>% : sets the line height in percent of the current font size.</li>
+      <li>initial : sets the value to default value : i.e normal</li>
+      <li>inherit: inherits the property value from its parent element...</li>
+    </ul>
+    <p>
+      If we set the line-height property to "1.2" and font-size of 20 px.<br />
+      Font Size : 20px<br />
+      Line Height: 20px * 1.2 = 24 px
+    </p>
+  </body>
+</html>
