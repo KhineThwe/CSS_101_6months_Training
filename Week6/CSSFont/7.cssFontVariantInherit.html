@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Font Variant inherit</title>
+    <style>
+      .parent {
+        font-variant: small-caps; /*Parent element with small-caps font variant*/
+      }
+      .child {
+        font-variant: inherit; /* Inherits font variant from its parent*/
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parent">
+      <p>This text has the small-caps font variant from its parent</p>
+      <p class="child">This text inherits the font variant from its parent.</p>
+    </div>
+  </body>
+</html>
