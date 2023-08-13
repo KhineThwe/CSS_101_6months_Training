@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HSL Color Format</title>
+    <style>
+      h1.hsl-value {
+        color: hsl(360, 100%, 50%);
+      }
+      h1.hsla-value {
+        color: hsla(360, 100%, 50%, 0.4);
+      }
+    </style>
+  </head>
+  <body>
+    <h1>HSL(0,100%,50%) represents red</h1>
+    <ul>
+      <li>
+        The first value 0 represents hue and takes a numeric value ranging from
+        0 to 360. The value 0 represents red,120 represents green and 240
+        represents blue and also 360 represents red.
+      </li>
+      <li>
+        The second value 100% represents saturation which refers to the
+        intensity of hue. The value ranges from 0%(fully gray) to 100%(fully
+        saturated)
+      </li>
+      <li>
+        The third value represents lightness which refers to the brightness of
+        the color. The value ranges from 0%(fully black) to 100%(fully white)
+      </li>
+    </ul>
+    <h1 class="hsl-value">HSL Value</h1>
+
+    <h1>HSLA - A means Alpha - opacity</h1>
+    <p>hsla(0,100%,50%,0.4)</p>
+    <p>
+      The final value of hsla 0.4 represents the opacity whose value ranges from
+      0(fully transparent) to 1(fully opaque)
+    </p>
+    <h1 class="hsla-value">HSLA Value</h1>
+  </body>
+</html>
