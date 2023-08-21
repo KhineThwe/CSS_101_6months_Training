@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Descendant Selector 3</title>
+    <style>
+      header a {
+        text-decoration: none;
+        color: black;
+      }
+      nav li a {
+        background-color: blue;
+        color: white;
+      }
+      #note p {
+        color: plum;
+      }
+
+      #note p strong {
+        color: blue;
+      }
+
+      #fo p {
+        color: brown;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Portfolio</a></li>
+      </ul>
+    </nav>
+
+    <div id="note">
+      <p>This is <strong>note</strong> for demonstration purposes.</p>
+    </div>
+
+    <footer id="fo">
+      <p>&copy; 2023 Example Company.All rights reserved.</p>
+    </footer>
+  </body>
+</html>
