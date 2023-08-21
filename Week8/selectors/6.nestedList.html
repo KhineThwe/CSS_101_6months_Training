@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nested List</title>
+    <style>
+      .outer-list {
+        color: red;
+      }
+      .inner-list {
+        color: blue;
+      }
+      #item1 {
+        color: pink;
+      }
+      #item2 {
+        color: brown;
+      }
+    </style>
+  </head>
+  <body>
+    <ul class="outer-list">
+      <li>
+        Item 1
+        <ul class="inner-list">
+          <li id="item1">Sub Item 1</li>
+          <li id="item2">Sub Item 2</li>
+        </ul>
+      </li>
+    </ul>
+  </body>
+</html>

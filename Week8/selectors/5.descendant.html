@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      #my-list li {
+        color: blue;
+      }
+      .parent p {
+        color: green;
+      }
+
+      .container div p {
+        font-style: italic;
+      }
+    </style>
+  </head>
+  <body>
+    <!--Basic-->
+    <ul id="my-list">
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+    </ul>
+
+    <!--Nested-->
+    <div class="parent">
+      <div>
+        <p>This is a paragraph.</p>
+      </div>
+      <div>
+        <p>Another paragraph here.</p>
+      </div>
+    </div>
+
+    <div class="container">
+      <div>
+        <div>
+          <p>This is a paragraph inside nested divs.</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
