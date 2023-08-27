@@ -1,0 +1,51 @@
+/* Reset some default styles */
+body,
+ul,
+ol,
+table {
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply some basic styles to the page */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  margin-top: 20px;
+}
+
+/* Style the sample list */
+.sample-list {
+  list-style-type: square;
+  margin-left: 20px;
+}
+
+.sample-list li {
+  margin-bottom: 5px;
+}
+
+/* Style the sample table */
+.sample-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.sample-table th,
+.sample-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.sample-table th {
+  background-color: #f2f2f2;
+}
