@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ShortHand</title>
+    <style>
+      ul.first {
+        list-style: url("bullet.png") circle outside;
+      }
+      ul.second {
+        list-style: square inside;
+      }
+      ul.third {
+        list-style: disc;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>CSS Lists - ShortHand Property</h2>
+    <h3>Three values passed</h3>
+    <ul class="first">
+      <li>All The Three Values Have been provided</li>
+      <li>The item marker is an image,position as outside.</li>
+      <li>It is used in cases we do not need to follow a sequence.</li>
+    </ul>
+
+    <h3>Two values passed</h3>
+    <ul class="second">
+      <li>The item marker is none</li>
+      <li>Item's type is square.</li>
+      <li>Item's position is inside.</li>
+    </ul>
+
+    <h3>One value passed</h3>
+    <ul class="third">
+      <li>
+        The item marker is disc,with style position as outside (default) and no
+        image(default-none)
+      </li>
+    </ul>
+  </body>
+</html>

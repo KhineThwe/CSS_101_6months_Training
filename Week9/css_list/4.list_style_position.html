@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>List Style Position</title>
+    <style>
+      ul.parent {
+        list-style-position: none;
+        margin: 0;
+        padding: 0;
+      }
+      ul.a {
+        list-style-position: outside;
+      }
+      ul.b {
+        list-style-position: inside;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>CSS Lists - Marker Position</h2>
+    <ul class="parent">
+      <li>Parent 1</li>
+      <li>Parent 2</li>
+      <li>Parent 3</li>
+    </ul>
+    <ul class="a">
+      <li>First</li>
+      <li>Second</li>
+      <li>Third</li>
+    </ul>
+
+    <ul class="b">
+      <li>First</li>
+      <li>Second</li>
+      <li>Third</li>
+    </ul>
+  </body>
+</html>
