@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      a {
+        color: blue;
+      }
+      a:visited {
+        color: gray;
+      }
+      a:hover {
+        color: red;
+      }
+      #nav li:hover {
+        background: green;
+      }
+      p:hover a {
+        color: lightblue;
+      }
+
+      button:active {
+        background-color: orange;
+      }
+
+      input[type="text"] {
+        background-color: blueviolet;
+      }
+      input[type="text"]:focus {
+        background-color: hotpink;
+      }
+      #page p:first-child {
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="nav">
+      <ul>
+        <li>
+          <a href="#">Home</a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a href="#">About</a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a href="#">Services</a>
+        </li>
+      </ul>
+      <ul>
+        <li>
+          <a href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+
+    <div id="page">
+      <p>This is the first paragraph. <a href="#">Link inside paragraph.</a></p>
+      <p>Another Paragraph:</p>
+    </div>
+
+    <button>Click me</button>
+
+    <input type="submit" value="Submit" />
+    <input type="text" placeholder="Type something" />
+  </body>
+</html>
