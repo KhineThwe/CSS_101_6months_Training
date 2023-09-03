@@ -6,10 +6,47 @@
     <title>Background Repeat Property</title>
     <style>
       body {
-        background: rgb(134, 60, 60) url("star.jpg") repeat-x;
-        /*color image repeat attachment position*/
+        /*background: rgb(134, 60, 60) url("star.jpg") repeat-x;
+        color image repeat attachment position*/
+        background-image: url("star.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        /*background-position: center; //centered 
+         background-position: top left;//top left corner
+         background-position: top right;//top right corner
+          background-position: bottom right;//bottom right corner
+          background-position: bottom left;//bottom left corner
+          background-position: center bottom;//centered horizontally bottom
+          background-position: center top;
+          background-position: center bottom;
+          */
+
+        background-position: center 30px;
+
+        /*//with percentage values,pixels and combined
+           background-position: 50% 25%; //50% from left , 25% from top
+         background-position: 10px 20px;//10px from left , 20px from top
+          background-position: center 30px;//centered horizontally 30 from top
+          */
       }
     </style>
   </head>
-  <body></body>
+  <body>
+    <p>The background-image is fixed. Try to scroll down the page.</p>
+    <p>The background-image is fixed. Try to scroll down the page.</p>
+    <p>The background-image is fixed. Try to scroll down the page.</p>
+    <p>The background-image is fixed. Try to scroll down the page.</p>
+    <p>The background-image is fixed. Try to scroll down the page.</p>
+    <p>The background-image is fixed. Try to scroll down the page.</p>
+    <p>The background-image is fixed. Try to scroll down the page.</p>
+    <p>The background-image is fixed. Try to scroll down the page.</p>
+    <p>The background-image is fixed. Try to scroll down the page.</p>
+  </body>
 </html>
+<!-- background-position: center; - Centered horizontally and vertically.
+background-position: top left; - Top-left corner.
+background-position: top right; - Top-right corner.
+background-position: bottom right; - Bottom-right corner.
+background-position: bottom left; - Bottom-left corner.
+background-position: center bottom; - Centered horizontally and at the bottom.
+background-position: center top; - Centered horizontally and at the top. -->
