@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+    <link rel="stylesheet" href="portfolio.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <a href="#about">About</a>
+      <a href="#about">Projects</a>
+      <a href="#about">Contact</a>
+    </div>
+
+    <section id="about">
+      <h2>About Me</h2>
+      <p>This is the about section where you can introduce yourself</p>
+    </section>
+
+    <section id="projects">
+      <h2>My Projects</h2>
+      <div class="project-card">
+        <h3>1.Portfolio HTML Project</h3>
+        <p>This project.....................</p>
+      </div>
+      <div class="project-card">
+        <h3>2.OnlineShop HTML Project</h3>
+        <p>This project.....................</p>
+      </div>
+      <div class="project-card">
+        <h3>3.Ecommerce HTML Project</h3>
+        <p>This project.....................</p>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Me</h2>
+      <p>
+        You can contact me through the form below or using the information
+        provided.
+      </p>
+      <form action="#">
+        <div class="form-group">
+          <label for="username">Username: </label>
+          <input type="text" id="username" name="username" required />
+        </div>
+        <div class="form-group">
+          <label for="email">Email: </label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div class="form-group">
+          <label for="message">Username: </label>
+          <textarea
+            name="message"
+            id="message"
+            cols="30"
+            rows="10"
+            required
+          ></textarea>
+        </div>
+        <button type="submit">Send</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; 2023 Myanmar IT Training.All rights reserved.</p>
+      <p><a href="#">Privacy Policy</a>| <a href="#">Terms of Service</a></p>
+    </footer>
+  </body>
+</html>
