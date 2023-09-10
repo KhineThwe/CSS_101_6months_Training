@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Outline Property</title>
+    <style>
+      .outlined:hover {
+        outline: 2px solid red;
+      }
+      .outline1:focus {
+        outline: 2px solid blue;
+      }
+      .dashed-outline:hover {
+        outline: 2px dashed green;
+      }
+    </style>
+  </head>
+  <body>
+    <p class="outlined">Hover over me!</p>
+
+    <form action="#">
+      <label for="username">Username</label>
+      <input
+        type="text"
+        class="outline1"
+        name="username"
+        id="username"
+        placeholder="Enter your username"
+      />
+      <button>Submit</button>
+    </form>
+    <button class="dashed-outline">Hover over me!</button>
+  </body>
+</html>
