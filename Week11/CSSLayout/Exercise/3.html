@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Float Image Side By Side</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      .img-container {
+        float: left;
+        width: 200px;
+        padding: 5px;
+      }
+      .container::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+    </style>
+  </head>
+  <body>
+    <h2>Images Side By Side</h2>
+    <p>Float Images Side by sides:</p>
+    <div class="container">
+      <div class="img-container">
+        <img src="img1.jpg" alt="Italy" style="width: 100px" />
+      </div>
+      <div class="img-container">
+        <img src="img2.jpg" alt="Forest" style="width: 100px" />
+      </div>
+      <div class="img-container">
+        <img src="img3.jpg" alt="Mountains" style="width: 100px" />
+      </div>
+    </div>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+      necessitatibus consequatur laborum velit at autem totam harum alias
+      similique quos! Eius assumenda necessitatibus, sequi iste tenetur quis
+      ipsum nulla vitae.
+    </p>
+  </body>
+</html>

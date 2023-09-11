@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Multi Colum Layout</title>
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .column {
+        float: left;
+        width: 30%;
+        padding: 10px;
+        margin-right: 20px;
+        border: 1px solid red;
+        box-sizing: border-box;
+      }
+      .clear {
+        clear: both;
+      }
+      footer {
+        clear: both;
+        background-color: #333;
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="column">Column 1</div>
+    <div class="column">Column 2</div>
+    <div class="column">Column 3</div>
+    <div class="clear"></div>
+    <footer>Footer</footer>
+  </body>
+</html>
