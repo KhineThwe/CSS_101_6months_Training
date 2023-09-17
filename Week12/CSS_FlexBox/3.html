@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Flex Box Lesson3</title>
+    <style>
+      .container {
+        display: flex;
+        background-color: black;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        height: 200px;
+      }
+      .param {
+        background-color: aqua;
+        width: 100px;
+        height: 100px;
+        margin: 20px;
+      }
+      .title {
+        align-self: center;
+      }
+      .footer {
+        align-self: end;
+      }
+      .test1 {
+        align-self: center;
+      }
+      .test2 {
+        align-self: flex-start;
+      }
+      .test2 {
+        align-self: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="param">One</div>
+      <div class="param title">Two</div>
+      <div class="param footer">Three</div>
+
+      <div class="param test1">One</div>
+      <div class="param test2">Two</div>
+      <div class="param test3">Three</div>
+    </div>
+  </body>
+</html>
+<!-- https://css-tricks.com/snippets/css/a-guide-to-flexbox/ 
+https://flexboxfroggy.com/
+
+https://gist.github.com/lukasrudnik/c72cafebd0db5bae4aa5563b24e73fd2-->
