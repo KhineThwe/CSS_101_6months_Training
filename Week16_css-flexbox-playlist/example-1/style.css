@@ -1,0 +1,47 @@
+* {
+  font-family: verdana;
+  margin: 0;
+}
+
+body {
+  background: #eee;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+/*menu base style*/
+nav {
+  background-color: #333;
+}
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0; /* Add margin: 0; to remove default margins */
+}
+nav a {
+  text-decoration: none;
+  text-align: center;
+  color: #fff;
+  display: block;
+  padding: 10px;
+  margin: 5px 0; /* Add some margin for spacing between menu items */
+}
+nav a:hover {
+  background-color: #555;
+}
+
+@media screen and (min-width: 768px) {
+  /*when browser screen is larger than 768 px*/
+  nav ul {
+    display: flex;
+    justify-content: center;
+  }
+  nav li {
+    /*flex: 1 1 0;*/
+  }
+}
+/*make flex menu for larger screen with media screen*/

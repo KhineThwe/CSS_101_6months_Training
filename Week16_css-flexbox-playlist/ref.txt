@@ -1,0 +1,7 @@
+https://medium.com/@tiffnogueira/understanding-flex-shrink-flex-grow-and-flex-basis-and-using-these-properties-to-their-full-e4b4afd2c930#:~:text=Flex-grow%20tells%20our%20element%20whether%20or%20not%20it,will%20not%20grow%20to%20take%20up%20available%20space.
+
+
+https://meyerweb.com/eric/tools/css/reset/
+
+
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/

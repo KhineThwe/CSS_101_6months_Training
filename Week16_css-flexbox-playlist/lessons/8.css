@@ -1,0 +1,38 @@
+* {
+  font-family: verdana;
+  margin: 0;
+}
+
+body {
+  background: #eee;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+}
+.flex-container {
+  display: flex;
+  background: #fff;
+  flex-wrap: wrap;
+  flex-flow: row;
+  justify-content: center; /*works on main axis*/
+  height: 1000px;
+  align-items: center; /*works on cross-axis*/
+}
+/* flex flow*/
+.box {
+  height: 100px;
+  flex: 0 0 100px;
+}
+
+.one {
+  background-color: red;
+}
+.two {
+  background-color: blue;
+}
+.three {
+  background-color: green;
+}
